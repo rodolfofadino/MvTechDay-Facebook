@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDemo", "FaceDemo\FaceDemo.csproj", "{E23FBA54-17F6-4B2E-8C74-FD05F76D7247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDemoJs", "FaceDemoJs\FaceDemoJs.csproj", "{4C558444-91E7-484B-B186-C9357C67C497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuthAndMembership", "OAuthAndMembership\OAuthAndMembership.csproj", "{874C258C-B3AB-4D9F-B352-E8A234BA32DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23FBA54-17F6-4B2E-8C74-FD05F76D7247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23FBA54-17F6-4B2E-8C74-FD05F76D7247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23FBA54-17F6-4B2E-8C74-FD05F76D7247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23FBA54-17F6-4B2E-8C74-FD05F76D7247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C558444-91E7-484B-B186-C9357C67C497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C558444-91E7-484B-B186-C9357C67C497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C558444-91E7-484B-B186-C9357C67C497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C558444-91E7-484B-B186-C9357C67C497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874C258C-B3AB-4D9F-B352-E8A234BA32DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874C258C-B3AB-4D9F-B352-E8A234BA32DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874C258C-B3AB-4D9F-B352-E8A234BA32DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874C258C-B3AB-4D9F-B352-E8A234BA32DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

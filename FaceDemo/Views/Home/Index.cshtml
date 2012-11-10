@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Facebook App";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                <a href="/Home/Login" title="Facebook Login">Logar</a>.
+            </p>
+        </div>
+    </section>
+}
+<h3>Usuário:</h3>
+<p>
+    @ViewBag.Usuario
+</p>
+@if (ViewBag.MostraForm != null)
+{
+    <h3>Enviar uma mensagem:</h3>
+    <h4 style="color: rgb(31, 186, 239)">@ViewBag.MensagemSucesso</h4>
+    using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+    <span>Mensagem</span>
+    <br />
+    @Html.TextArea("Mensagem")
+    <br />
+    <span>Link</span>
+    <br />
+    @Html.TextBox("Link")
+    <br />
+    <br />
+    <input type="submit" />
+    }
+}
